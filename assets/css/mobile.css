@@ -1,0 +1,272 @@
+/* mobile style  */
+@media screen and (max-width: 480px) {
+    
+    section,
+    .contact,
+    footer .container {
+        padding: 80px 10px;
+    }
+
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: var(--white);
+        width: 100%;
+        border-radius: 0px;
+        padding: 20px 40px;
+        margin: 0px;
+        margin-top: 0px;
+        position: fixed;
+        flex-wrap: wrap;
+        padding: 25px 20px;
+    }
+
+    .menu-burger {
+        display: block;
+    }
+
+    #menu:checked ~ nav {
+        display: block;
+    }
+    
+    nav {
+        /* justify-content: space-between; */
+        justify-content: start;
+        gap: 5px;
+        width: 100%;
+        padding: 50px 15px 20px;
+        display: none;
+        /* background: red; */
+    }
+    
+    .nav-links-items {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        text-align: start;
+    }
+    
+    .nav-links-items {
+        gap: 35px;
+        text-transform: capitalize;
+    }
+    
+    .nav-links-items a {
+        color: var(--charcoal);
+        font-weight: var(--fw-500);
+    }
+    
+    .nav-icons {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: var(--white_a8);
+        font-weight: var(--fw-500);
+        margin-top: 20px;
+    }
+
+    /* main start  */
+
+/* banner  */
+.one {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 400px 5px;
+}
+
+.banner {
+    /* position: absolute; */
+    width: 100%;
+    padding: 0px 0px 50px 0px;
+}
+
+.banner .container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.banner-img {
+    /* background: url("../img/blob.svg") no-repeat; */
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 60% 60% 50% 60%;
+}
+
+.banner-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-left .ban-imgtwo {
+    position: absolute;
+    top: 75%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-text .title {
+    font-size: var(--fs-4);
+    line-height: 35px;
+    text-transform: capitalize;
+}
+
+.banner-text .banner-subtitle {
+    font-size: var(--fs-8);
+    line-height: 25px;
+    color: var(--black-coral);
+    margin-top: 25px;
+    /* text-transform: capitalize; */
+}
+
+.banner-text .banner-btn {
+    margin-top: 50px;
+}
+
+
+/* banner  */
+
+
+/* about  */
+
+.about-one, .about-skill, .about-two {
+    flex-direction: column;
+    /* gap: ; */
+}
+
+.about-one .about-text, .about-one .about-skill {
+    width: 100%;
+}
+
+/* about  */
+
+
+
+/* projects  */
+
+.projects .project-one {
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.project-one p {
+    margin-bottom: 20px;
+}
+
+.project-f {
+    width: 100%;
+}
+
+.project-img {
+    width: 60%;
+    overflow: hidden;
+}
+
+.project-items-one {
+    flex-direction: column;
+}
+
+.project-items-two, .project-items-three {
+    flex-direction: column-reverse;
+}
+
+.project-f {
+    width: 100%;
+}
+
+.project-img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.project-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    /* gap: 10px; */
+    margin-top: 50px;
+}
+
+.project-items-one, .project-items-two {
+    padding: 50px 20px;
+}
+
+.project-items-two {
+    padding: 50px 20px;
+}
+
+.project-items-three .project-f, .project-items-four .project-f {
+    padding: 50px 20px;
+}
+
+/* projects  */
+
+
+/* contact  */
+
+.contact {
+    padding: 80px 10px 8px;
+}
+
+.contact .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 50px;
+    padding: 70px 35px;
+    flex-direction: column;
+}
+
+.contact-text, .contact-form {
+    width: 100%;
+}
+
+/* contact  */
+
+
+
+/* footer  */
+
+footer .container {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 10px 40px;
+    /* background: red; */
+}
+
+/* footer  */
+
+
+}
+
+
+
+
+
+/* miniphone style  */
+@media screen and (max-width: 320px) {
+
+    .btn {
+        padding: 15px 17px;
+        font-size: var(--fs-9);
+    }
+
+    .banner-text {
+        margin: auto;
+    }
+
+}
